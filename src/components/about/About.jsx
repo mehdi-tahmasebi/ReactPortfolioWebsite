@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
@@ -35,11 +35,18 @@ const About = () => {
               <small>80+ Completed</small>
             </article>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil
-            illum quaerat repellendus rerum enim architecto tempora delectus
-            itaque velit consequatur, sed earum veritatis dignissimos alias
-            quidem in voluptatibus ut.
+          <p className="paragraph_justify">
+            I'm Mehdi, I've been working in the web field for about three years
+            and now, I'm a Front-End developer at SoundTrack Srl Company in
+            Milan, Italy. I am working professionally on a dedicated web
+            application with React and I better say I love React and my work. In
+            addition, I am a developer and designer of WordPress Websites, which
+            in addition to my main job, I work on WordPress Websites for various
+            projects. I love learning and teaching. Anyone who would like to get
+            guidance on how to start programming and would like to become a
+            front-end developer can count on my help or send me a question
+            wherever he has a question. I will definitely answer it as soon as
+            possible.
           </p>
 
           <a href="#contact" className="btn btn-primary">

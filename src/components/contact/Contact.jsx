@@ -3,8 +3,8 @@ import { useRef } from "react";
 import emailjs from "emailjs-com";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Contact = () => {
   const form = useRef();
@@ -42,11 +42,11 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>Follow Me</h5>
-            <a href="mailto:info@tahmasebi.it" target="_blank">
-              Send me a message
+            <FaTelegramPlane className="contact__option-icon" />
+            <h4>Telegram</h4>
+            <h5>@metahmasebi92</h5>
+            <a href="https://t.me/metahmasebi92" target="_blank">
+              Chat with me
             </a>
           </article>
           <article className="contact__option">
@@ -54,10 +54,10 @@ const Contact = () => {
             <h4>WhatsApp</h4>
             <h5>+39(379)2387735</h5>
             <a
-              href="https://wa.me/00393792385698?text=urlencodedtext"
+              href="https://wa.me/00393792387735?text=urlencodedtext"
               target="_blank"
             >
-              Send me a message
+              Call me
             </a>
           </article>
         </div>

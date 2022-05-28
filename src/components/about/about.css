@@ -68,6 +68,11 @@
     color: var(--color-light);
 }
 
+.paragraph_justify{
+    text-align: justify;
+  text-justify: inter-word;
+}
+
 /* ========================  MEDIA QUERIES (MEDIUM DEVICES) ================= */
 
 
